@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffe5ec;
+}
+
+h1 { 
+    color: #f72585;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 25px;
+}
+
+p { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: #003049;
+    margin: 20px 50px;
+    padding: 20px;
+    flex-wrap:wrap;
+    text-align:right;
+    border: 2px solid #c1121f;
+    display: grid;
+    justify-content: flex-start;
+
+}
+
+.p-about-me {
+    margin:50%;
+    
+    
+}
+
+h2 {
+    color: #003049;
+    margin: 20px 50px;
+    padding: 20px;
+    display: grid;
+    justify-content:left;
+}
+
+ul {
+    list-style-type:none;
+    margin:10px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #ffc2d1;
+    font-weight: bold;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display:inline-block;
+    color: #f72585;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ img {
+    max-width: 45%;
+    max-width: 45%;
+    border-radius: 5%;
+    float:right;
+    border: 2px solid #c1121f; 
+    margin: 20px;
+ }
+
