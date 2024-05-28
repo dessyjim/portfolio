@@ -25,9 +25,10 @@ p {
     color: black;
     margin: 0px 50px 10px 50px;
     padding: 10px;
-    border: 2px dotted #ffffff;
+    border: 2px dashed #ffffff;
     border-radius: 10px;
-    justify-content: flex-start;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 
@@ -49,7 +50,7 @@ ul {
     background-color: #ffc2d1;
     font-weight: bold;
     font-size: 25px;
-    border: 2px dotted #ffffff;
+    border: 2px dashed #ffffff;
 }
 
 li {
@@ -74,15 +75,15 @@ li a:hover {
     max-width: 50%;
     max-height: 50%;
     border-radius: 5%;
-    border: 3px dotted #ffffff; 
-    margin: 20px;
+    border: 3px dashed #ffffff; 
+    margin: auto;
+    padding: auto;
  }
 
  .center {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin: auto;
+    padding: auto;
   }
 
 section {
@@ -90,26 +91,48 @@ section {
     flex-wrap: wrap;
 }
 
+#about-me{
+    display:flex;
+    flex-wrap: nowrap;
+    margin-top: 25px;
+}
 .content{
     display:inline-grid;
-
 }
 
 #work {
-    display: flex;
+    display:inline-flex;
     flex-wrap: nowrap;
 }
 
-#horiseon {
-    max-width: 50%;
-    max-height: 50%;
-}
-
 #study-guide {
-    max-width: 50%;
-    max-height: 50%;
-    
-    
+    display:flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 5px 10px 15px 10px;
+    padding: 5px 10px;
+    max-width: 95%;
+    max-height: 95%;
+}
+#study-guide:hover {
+    background-color: #f72585 ;
+}
+#horiseon {
+    display:flex;
+    flex-wrap: nowrap;
+    margin: 5px 10px;
+    padding: 5px 10px;
+    max-width:75%;
+    max-height:75%;
+}
+#horiseon:hover {
+    background-color: #f72585;
 }
 
 
+footer {
+    display:flex;
+    flex-wrap: wrap;
+    align-items:center;
+    
+}
