@@ -11,7 +11,7 @@ N/A
 Open Chrome DevTools to show you code used for webpage. You can use Chrome DevTools to see the different areas of the webpage and how the CSS sheet correlates to the HTML.
 
 ```md
-[Destinee's Portfolio](../assets/images/Screenshot.jpg)
+![Screenshot of Destinee's Portfolio](./assets/images/screenshot.png)
 ```
 
 ## Credits
