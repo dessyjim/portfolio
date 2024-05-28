@@ -4,42 +4,41 @@
 
 body {
     background-color: #ffe5ec;
+    background-image: radial-gradient(circle, #f72585,#ffc2d1, #ff8fab, #ffff);
+
 }
 
 h1 { 
     color: #f72585;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
+    font-size: 40px;
     text-align: center;
-    padding: 25px;
+    padding: 0;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+
 
 p { 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    color: #003049;
-    margin: 20px 50px;
-    padding: 20px;
-    flex-wrap:wrap;
-    text-align:right;
-    border: 2px solid #c1121f;
-    display: grid;
+    font-size: 15px;
+    color: black;
+    margin: 0px 50px 10px 50px;
+    padding: 10px;
+    border: 2px dotted #ffffff;
+    border-radius: 10px;
     justify-content: flex-start;
-
 }
 
-.p-about-me {
-    margin:50%;
-    
-    
-}
 
 h2 {
-    color: #003049;
-    margin: 20px 50px;
-    padding: 20px;
+    color: #ffff;
+    margin: 25px 50px 0px 50px;
+    padding: 10px;
     display: grid;
     justify-content:left;
+    font-size: 25px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 ul {
@@ -49,6 +48,8 @@ ul {
     overflow: hidden;
     background-color: #ffc2d1;
     font-weight: bold;
+    font-size: 25px;
+    border: 2px dotted #ffffff;
 }
 
 li {
@@ -57,17 +58,58 @@ li {
 
 li a {
     display:inline-block;
-    color: #f72585;
+    color: #ffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+
+li a:hover {
+    background-color: #ffe5ec;
+}
+
+ 
  img {
-    max-width: 45%;
-    max-width: 45%;
+    max-width: 50%;
+    max-height: 50%;
     border-radius: 5%;
-    float:right;
-    border: 2px solid #c1121f; 
+    border: 3px dotted #ffffff; 
     margin: 20px;
  }
+
+ .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+section {
+    display:inline-flex;
+    flex-wrap: wrap;
+}
+
+.content{
+    display:inline-grid;
+
+}
+
+#work {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#horiseon {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+#study-guide {
+    max-width: 50%;
+    max-height: 50%;
+    
+    
+}
+
 
